@@ -18,8 +18,6 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 @Data
 @Component
 public class TelegramBot extends TelegramLongPollingBot {
-
-
     final BotConfig botConfig;
     MainMenuService mainMenuService=new MainMenuService();
     NewMessage newMessage=new NewMessage();
